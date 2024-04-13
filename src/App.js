@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from './Components/Footer';
 import TimePage from './Components/TimePage';
+import Profile from './Components/Profile';
 
 function App() {
   return (
     <div className="App">
       <TimePage />
+      <Profile />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
