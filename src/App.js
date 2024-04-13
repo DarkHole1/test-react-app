@@ -6,6 +6,7 @@ import TimePage from './Components/TimePage';
 function App() {
   return (
     <div className="App">
+      <TimePage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
